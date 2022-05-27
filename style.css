@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Rubik&display=swap');
+
+body{
+    background-color: rgb(124, 124, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+header{
+    font-family: 'rubik';
+    font-size: 40px;
+    margin-right: 350px;
+}
+
+.container{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+    background-color: #000
+}
+
+.gameBoard{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 1000px;
+    height: 600px;
+   /*  background-color: red; */
+}
+
+.scoreDiv{
+    margin-left: 50px;
+    text-align: center;
+    background-color: rgb(195, 195, 227);
+    height: 600px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+#name{
+    margin-top: 30px;
+    height: 40px;
+    font-family: 'rubik';
+    
+}
+
+.botao{
+    margin-left: 10px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'rubik';    
+}
+.botaoDif{
+    margin-top: 20px;
+    font-family: 'rubik';
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: rgb(195, 195, 227);
+    background-color: black;
+    padding: 15px;
+}
+.botaoDif:hover{
+    background-color: grey;
+    color: white;
+}
+.radio{
+    margin-top: 5px;
+    accent-color: rgb(195,195,227);
+}
+
+
+.mensagem{
+    /* background-color: rgb(231, 247, 180); */
+    width: 220px;
+    height: 280px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    font-family: 'Rubik';
+    font-size: 20px;
+    
+}
+/* .textoInteracao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 200px;
+    height: 220px;
+    background-color: rgb(179, 65, 65);
+} */
+
+h2{
+    font-size: 25px;
+    font-family: 'rubik';
+}
+
+span{
+    border-radius:  50px;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: rubik;
+    padding: 10px;
+    border: dashed 2px rgb(7, 70, 4);
+    
+}
+
+.box{
+    text-align: center;
+    /* margin-top: 40px; */
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 220px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+.blue{
+    background-color: blue;
+}
+.blue:hover{
+    box-shadow: 0px 0px 30px 0px blue;
+}
+
+
+.red{
+    background-color: red;
+
+}
+.red:hover{
+    box-shadow: 0px 0px 30px 0px red;
+}
+.green{
+    background-color: green;
+}
+.green:hover{
+    box-shadow: 0px 0px 30px 0px green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.yellow:hover{
+    box-shadow: 0px 0px 30px 0px yellow;
+}
+
+
+.cor0{
+    background-color: #D81B60;
+}
+.cor0:hover{
+    box-shadow: 0px 0px 30px 0px #D81B60 ;
+}
+.cor1{
+    background-color: #1E88E5;
+}
+.cor1:hover{
+    box-shadow: 0px 0px 30px 0px #1E88E5 ;
+}
+
+.cor2{
+    background-color: #FFC107;
+}
+.cor2:hover{
+    box-shadow: 0px 0px 30px 0px #FFC107 ;
+}
+
+.cor3{
+    background-color: #004D40;
+}
+.cor3:hover{
+    box-shadow: 0px 0px 30px 0px #004D40;
+}
+
+
+
+
+
+/* Estilização textos interativos */
+
+.botaoJogo{
+    /* width: 50px; */
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+
+    font-family: 'rubik';
+}
+
+.botaoJogo:hover{
+   background-color: rgb(0, 0, 0);
+   color: white;
+}
+
+.highscore{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 141px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-family: rubik;    
+}
